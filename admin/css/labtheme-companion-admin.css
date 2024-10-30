@@ -1,0 +1,800 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ img{
+     max-width: 100%;
+     height: auto;
+}
+
+.labtheme-search-icon {
+    width: 100%;
+}
+
+select[id*="widget-labtheme_image_widget-"], 
+select[id*="widget-labtheme_popular_post-"] {
+    width: 100%;
+}
+
+.labtheme-font-awesome-list {
+    margin-bottom: 10px
+}
+
+.labtheme-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.labtheme-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.labtheme-font-awesome-list li:hover,
+.labtheme-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.labtheme-font-awesome-list {
+    margin-bottom: 10px
+}
+
+.labtheme-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.labtheme-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+}
+
+.labtheme-font-awesome-list li:hover,
+.labtheme-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.labtheme-font-awesome-list li {
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.labtheme-remove-icon {
+    background: url("../images/ico-delete.png");
+    top: 0;
+    display: block;
+    height: 16px;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+    right: 0;
+}
+.labtheme-remove-image {
+    background: url("../images/ico-delete.png");
+    display: block;
+    height: 16px;
+    right: 0;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.link-image-repeat .widget-upload {
+    margin-bottom: 20px;
+}
+
+.labtheme-screenshot{margin: 20px 0 10px; position: relative;}
+.widget-client-logo-repeater .link-image-repeat .labtheme-screenshot:empty {
+    display: none;
+}
+
+.labtheme-remove-image{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.labtheme-upload-button{
+	margin-top: 10px !important;
+}
+
+.widget-control-actions{margin-top: 10px;}
+
+.icon-receiver{
+	font-size: 35px;
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+	background: #F1F1F1;
+    position: relative;
+}
+
+.labtheme-font-awesome-list ul{
+   overflow: auto;
+   height: 315px;
+   border: 1px solid #eee;
+   padding-top: 10px;
+   margin-top: 5px;
+}
+
+.labtheme-font-group li{
+ display: inline-block;
+ border: 1px solid #ddd;
+ margin-right: 5px;
+ width: 55px;
+ height: 55px;
+ line-height: 55px;
+}
+.labthemetheme-social-template{
+    display: none;
+}
+.cta-bg-color>.wp-picker-container>a {
+    display: none;
+}
+
+/*=======================
+WIDGET CLIENT FAQ
+=======================*/
+.widget-client-faq-repeater .faqs-repeat {
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+}
+.widget-client-faq-repeater .faqs-repeat .cross {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    font-size: 13px;
+    background: #fff;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    color: #f00;
+    cursor: pointer;
+}
+.widget-client-faq-repeater .faqs-repeat label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.widget-client-faq-repeater .faqs-repeat input[type="text"] {
+    margin-bottom: 30px;
+}
+.widget-client-faq-repeater .faqs-repeat textarea {
+    width: 100%;
+    height: 80px;
+}
+.widget-content label[for="widget-labtheme_companion_faqs_widget-2-toggle"] {
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+/*========================
+WIDGET CLIENT LOGO
+========================*/
+.widget-client-logo-repeater .link-image-repeat {
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+.widget-client-logo-repeater .link-image-repeat .cross {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #f5f5f5;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    color: #f00;
+    border-radius: 100%;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+.widget-client-logo-repeater .link-image-repeat label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.widget-client-logo-repeater .link-image-repeat label + br {
+    display: none;
+}
+.widget-client-logo-repeater .link-image-repeat .labtheme-upload-button {
+    margin-top: 0 !important;
+}
+.widget-client-logo-repeater .link-image-repeat .labtheme-screenshot {
+    display: block;
+    width: 100px;
+}
+.widget-client-logo-repeater .link-image-repeat input[value="Change"] + .labtheme-screenshot {
+    border: 1px solid #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.widget-client-logo-repeater .link-image-repeat .labtheme-screenshot a.labtheme-remove-image {
+    top: -5px;
+    right: 5px;
+}
+
+.labtheme-icons-list {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    z-index: 9999;
+    width: 225px;
+    border: 1px solid #ddd;
+    height: 300px;
+    overflow: scroll;
+    margin: 0 -5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+.labtheme-icons-list li {
+    padding: 0;
+    width: 55px;
+    list-style: none;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 22px;
+    line-height: 55px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    height: 55px;
+}
+.button-one-info label, .button-two-info label {
+    width: 100px;
+    display: inline-block;
+}
+.button-one-info label + input[type="text"], 
+.button-two-info label + input[type="text"] {
+    width: calc(100% - 106px);
+}
+li.labtheme-items-wrap,
+li.labtheme-social-icon-wrap {
+    background: #f1f1f1;
+    padding: 30px 5px 10px;
+    position: relative
+}
+.labtheme-sortable-icons .labtheme-social-icon-wrap .example-text{
+    margin-left: 39px;
+    display: block;
+}
+.labtheme-sortable-icons .labtheme-social-icon-wrap .social-search-wrap{
+    position: relative;
+}
+.labtheme-sortable-icons .labtheme-social-icon-wrap .social-search-wrap .labtheme-icons-list{
+    position: absolute;
+    top: 100%;
+}
+.postbox .inside .labtheme-team-sortable-icons .labtheme-social-icon-wrap .example-text {
+    display: block;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.postbox .inside .labtheme-team-sortable-icons .labtheme-social-icon-wrap input[type="text"]{
+    display: block;
+    width: 100%;
+}
+.labtheme-team-sortable-icons .labtheme-social-icon-wrap .del-team-icon{
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+}
+.labtheme-social-icon-wrap input[type="text"],
+{
+    width: 80%;
+    display: block;
+    margin-left: 39px;
+}
+
+.labtheme-social-icon-wrap .link-label {
+    margin-left: 39px;
+    margin-bottom: 5px;
+}
+
+.labtheme-social-icon-wrap .del-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e5e5e5;
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+.labtheme-social-icon-wrap .del-icon:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.labtheme-social-icon-wrap span.del-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 20px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.postbox .inside .labtheme-team-sortable-icons .labtheme-social-icon-wrap span.labtheme-social-icons-field-handle {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin: 0;
+    font-size: 20px;
+}
+.labtheme-sortable-icons li.labtheme-social-icon-wrap {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 1px 1px 1px #888888;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.labthemetheme-social-icon-wrap .labthemetheme-social-icons-field-handle {
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+.labthemetheme-social-icon-wrap .del-icon.dashicons-no {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 10px;
+    background: #e9e9e9;
+    display: inline-block;
+    font-size: 14px;
+    color: #cc444d;
+    cursor: pointer;
+}
+.widget-note {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+label[for="widget-labtheme_author_widget-3-link_url"] {
+    margin-top: 20px;
+    display: block;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap,
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap, 
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap {
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    position: relative;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap .labtheme-social-links-field-handle,
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap .labtheme-contact-social-links-field-handle {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 17px;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap label,
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap label, {
+    display: block;
+    font-weight: 600;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap .example-text,
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap .example-text {
+    display: block;
+    margin-bottom: 10px;
+    color: #777;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap .labtheme-social-links-field-handle + label, 
+.labtheme-sortable-links .labtheme-social-icon-wrap .labtheme-social-links-field-handle + label + .example-text,
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap .labtheme-contact-social-links-field-handle + label, 
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap .labtheme-contact-social-links-field-handle + label + .example-text {
+    margin-left: 25px;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap input[type="text"],
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap input[type="text"] {
+    width: 100%;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap input[type="text"] + label,
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap input[type="text"] + label {
+    margin-top: 20px;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap .del-labtheme-icon,
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap .del-labtheme-icon, 
+.del-contact-labtheme-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    background: #e5e5e5;
+    cursor: pointer;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap .labtheme-icons-list,
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap .labtheme-contact-icons-list {
+    top: 100px;
+    left: 26px;
+    width: auto;
+    right: 24px;
+    padding: 19px;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap .labtheme-icons-list li:hover,
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap .labtheme-contact-icons-list li:hover {
+    background: #f5f5f5;
+}
+
+.labtheme-sortable-links .labtheme-social-icon-wrap .labtheme-icons-list #remove-icon-list,
+.labtheme-contact-sortable-links .labtheme-contact-social-icon-wrap .labtheme-contact-icons-list #remove-icon-list {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 16px;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    background: #e5e5e5;
+    color: red;
+    cursor: pointer;
+}
+
+.labtheme-option-side-note {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+input.small-text {
+    width: 100%;
+}
+label.check-btn-wrap input[type="checkbox"] {
+   margin-left: 10px;
+}
+
+.social-search-wrap {
+    position: relative;
+}
+.social-search-wrap input[type="text"] {
+    width: 80%;
+}
+.social-search-wrap .labtheme-icons-list {
+    margin: 0;
+    width: 100%;
+    padding: 30px 4px;
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.social-search-wrap .labtheme-icons-list li {
+    width: 50px;
+    font-size: 22px;
+    margin-bottom: 5px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    float: none;
+}
+
+.social-search-wrap .labtheme-icons-list li:hover {
+    background: #f9f9f9;
+}
+
+.labtheme-contact-sortable-links li .labtheme-icons-list #remove-icon-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #eee;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: red;
+    cursor: pointer;
+}
+
+.labtheme-contact-sortable-links li .labtheme-icons-list #remove-icon-list:hover {
+    background: red;
+    color: #fff;
+}
+
+.labtheme-contact-social-links-sortable-handle, 
+.labtheme-social-links-sortable-handle {
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    position: absolute;
+    top: 50%;
+    left: -13px;
+    border-radius: 100%;
+    cursor: move;
+    border: 1px solid #e5e5e5;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23555" d="M352.201 425.775l-79.196 79.196c-9.373 9.373-24.568 9.373-33.941 0l-79.196-79.196c-15.119-15.119-4.411-40.971 16.971-40.97h51.162L228 284H127.196v51.162c0 21.382-25.851 32.09-40.971 16.971L7.029 272.937c-9.373-9.373-9.373-24.569 0-33.941L86.225 159.8c15.119-15.119 40.971-4.411 40.971 16.971V228H228V127.196h-51.23c-21.382 0-32.09-25.851-16.971-40.971l79.196-79.196c9.373-9.373 24.568-9.373 33.941 0l79.196 79.196c15.119 15.119 4.411 40.971-16.971 40.971h-51.162V228h100.804v-51.162c0-21.382 25.851-32.09 40.97-16.971l79.196 79.196c9.373 9.373 9.373 24.569 0 33.941L425.773 352.2c-15.119 15.119-40.971 4.411-40.97-16.971V284H284v100.804h51.23c21.382 0 32.09 25.851 16.971 40.971z"></path></svg>');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+}
+
+.button-one-info .wp-picker-container,
+.button-two-info .wp-picker-container {
+    display: inline-block;
+}
+/*=======================
+WIDGET Skills
+=======================*/
+
+.widget-skills-repeater {
+  padding-left: 12px;
+  padding-right: 5px;
+}
+.widget-skills-repeater .skills-repeat {
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  padding: 20px;
+  position: relative;
+  cursor: move;
+}
+.widget-skills-repeater .skills-repeat:first-child {
+  margin-top: 20px;
+}
+.widget-skills-repeater .skills-repeat .handle {
+  position: absolute;
+  top: 0;
+  left: -13px;
+  bottom: 0;
+  width: 25px;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+  margin: auto;
+  background: #fff;
+  border-radius: 100%;
+  color: #000;
+  font-size: 13px;
+  border: 1px solid #e5e5e5;
+}
+.widget-skills-repeater .skills-repeat .cross {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  font-size: 13px;
+  background: #fff;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  color: #f00;
+  cursor: pointer;
+}
+.widget-skills-repeater .skills-repeat label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.widget-skills-repeater .skills-repeat input[type="text"] {
+  margin-bottom: 30px;
+}
+.widget-skills-repeater .skills-repeat textarea {
+  width: 100%;
+  height: 80px;
+}
+.widget-content label[for="widget-labthemetheme_companion_faqs_widget-2-toggle"] {
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.labtheme-screenshot{margin: 20px 0 10px; position: relative;}
+
+
+.labtheme-font-awesome-list {
+    margin-bottom: 10px
+}
+
+.labtheme-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.labtheme-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.labtheme-font-awesome-list li:hover,
+.labtheme-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.labtheme-font-awesome-list li .fa {
+    font-size: 32px;
+    line-height: 60px;
+}
+
+.labtheme-font-awesome-list {
+    margin-bottom: 10px
+}
+
+.labtheme-font-awesome-list ul {
+    text-align: center;
+    height: 300px;
+    margin: 0
+}
+
+.labtheme-font-awesome-list li {
+    width: 60px;
+    height: 60px;
+}
+
+.labtheme-font-awesome-list li:hover,
+.labtheme-font-awesome-list li.selected {
+    background: #F6F6F6;
+}
+
+.labtheme-font-awesome-list li .fa {
+    font-size: 32px;
+    line-height: 60px;
+}
+
+.labtheme-remove-icon {
+    background: url("../../images/ico-delete.png");
+    top: 0;
+    display: block;
+    height: 16px;
+    padding: 0;
+    position: absolute;
+    text-indent: -9999px;
+    width: 16px;
+    cursor: pointer;
+    right: 0;
+}
+
+.labtheme-screenshot{margin: 20px 0 10px; position: relative;}
+
+.labtheme-remove-image{
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.labtheme-upload-button{
+  margin-top: 10px !important;
+}
+
+.widget-control-actions{margin-top: 10px;}
+
+.icon-receiver{
+  font-size: 35px;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  background: #F1F1F1;
+  position: relative;
+}
+
+.labtheme-font-awesome-list ul{
+  overflow: auto;
+  height: 315px;
+    border: 1px solid #eee;
+}
+
+.labtheme-font-group li{
+  display: inline-block;
+}
+.labthemetheme-social-template{
+    display: none;
+}
+.cta-bg-color>.wp-picker-container>a {
+    display: none;
+}
+.float-right{
+    float: right;
+}
+#labtheme_team_details input {
+    width: 100%;
+}
+.labtheme-sortable-items .labtheme-items-wrap{
+    position: relative;
+}
+
+.labtheme-sortable-items .labtheme-items-wrap input[type="text"]{
+    width: 100%;
+}
+
+.labtheme-sortable-items .labtheme-items-wrap .del-item{
+    position: absolute;
+    top: -42px;
+    right: 5px;
+}
+input[type="text"].social-length {
+    width: 80%;
+    display: block;
+    margin-left: 39px;
+}
+#labtheme_lab-event_id input,
+#labtheme_lab-testimonial_id input,
+#labtheme_lab-team_id .team-info input,
+#labtheme_lab-course_id .course-info input,
+#labtheme_lab-portfolio_id .portfolio-info input,
+#labtheme_lab-service_id .service-info input,
+#labtheme_lab-client_id .client-info input{
+    float: right;
+}
+#labtheme_lab-event_id .event-info,
+#labtheme_lab-testimonial_id .testimonial-info,
+#labtheme_lab-team_id .team-info,
+#labtheme_lab-course_id .course-info,
+#labtheme_lab-portfolio_id .portfolio-info,
+#labtheme_lab-service_id .service-info,
+#labtheme_lab-client_id .client-info {
+    padding-bottom: 15px;
+}
+/*#labtheme_lab-team_id .team-info .labtheme-team-sortable-icons{
+    padding-bottom: 0;
+}*/
+#course-metabox-list li,
+#event-metabox-list li {
+    width: 25%;
+    display: inline-block;
+}
+.labtheme-item-template .del-item {
+    display: none;
+}
+#admin-cpt-testimonial-rating::before {
+    content: "Rating";
+}
